@@ -1,0 +1,130 @@
+/*-------------- 
+    font style
+ ---------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* banner style  */
+.bg-color{
+    background-color: white;
+}
+.banner{
+   background-color: rgba(151, 236, 236, 0.884);
+   margin-bottom: 30px;
+  
+}
+.banner-details{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.banner-heading{
+    font-size: 50px;
+    color: rgba(240, 59, 225, 0.836);
+    padding-right: 9px;
+}
+.banner-heading a{
+    font-size: 20px;
+}
+a:hover{
+    font-size: 25px;
+}
+.banner-details a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: white;
+    background-color: rgba(176, 223, 67, 0.801);
+    margin-top: 20px;
+    
+    
+
+}
+
+.banner-img img{
+    Width:450px;
+    Height:300px;
+    padding-left: 9px;
+
+}
+
+/* players detail part */
+
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding-left: 95px;
+    padding-right: 95px;
+        
+}
+
+
+.bg-style{
+    background-color: rgba(155, 235, 255, 0.658);
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 40px;
+    margin: 10px;
+
+
+}
+.img-border{
+    width: 90%;
+    border-radius: 5px;
+    padding-top: 40px;
+}
+
+.text-align{
+    text-align:center;
+}
+
+
+
+/* extra section part design  */
+.algin{
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.algin h2{
+    padding-left: 200px;
+    color: cadetblue;
+    text-shadow:1px 1px sienna;
+    
+}
+
+
+.title-design a{
+    text-decoration: none;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: rgb(112, 243, 221);
+    border-radius: 5px;
+    m
+
+}
+    
+
+
+/* footer style  */
+ footer p{
+   text-align: center;
+}
+
+footer img{
+    
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 250px; */
+
+}
